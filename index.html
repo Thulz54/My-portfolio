@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Nokuthula Mthimunye – Web Developer, Environmental Advocate, and Administrative Professional." />
+<meta name="author" content="Nokuthula Mthimunye" />
+
+  <title>Nokuthula Mthimunye | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f9f4;
+      color: #2e4a2b;
+    }
+    header {
+      background-color: #3a7d44;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: white;
+      background-color: #6aa84f;
+      margin: 0.3rem;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #4e8b3c;
+    }
+    main {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    #about {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    #about img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+    h2 {
+      font-family: 'Lato', sans-serif;
+      color: #3a7d44;
+    }
+    .project-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .project {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .project img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .project h3 {
+      margin: 0.5rem 0 0.3rem;
+      color: #2e4a2b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .project h3 i {
+      color: #3a7d44;
+    }
+    .project p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background-color: #3a7d44;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .project a:hover {
+      background-color: #2e4a2b;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background-color: #3a7d44;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      background-color: #6aa84f;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      margin: 0 0.2rem;
+      display: inline-block;
+    }
+    footer a:hover {
+      background-color: #4e8b3c;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    button {
+      padding: 0.8rem;
+      border: none;
+      background-color: #3a7d44;
+      color: white;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #2e4a2b;
+    }
+    @media (max-width: 700px) {
+      #about {
+        flex-direction: column;
+        text-align: center;
+      }
+      #about img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nokuthula Mthimunye</h1>
+  <p>Web Developer | Environmental Advocate | Project-Driven Administrative Professional</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#book">Book</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="about">
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/551/original/InShot_20250324_130652450.jpg?1749287664/250" alt="Nokuthula Mthimunye" />
+    <div>
+      <h2>Behind the Code & Cause</h2>
+      <p>A versatile professional with strengths in <strong>web development</strong>, <strong>environmental education</strong>, and <strong>administrative operations</strong>. I bring a well-rounded approach that combines technical proficiency, mission-driven advocacy, and organized business support.</p>
+      
+      <p>Through <strong>SheCodes</strong>, I built a solid foundation in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and API integration—designing responsive tools that prioritize user experience. My background in <strong>administrative support</strong> includes roles such as <strong>Associate Billing Representative Clerk</strong> and <strong>Accounts Receivable Clerk</strong>, where I handled <strong>billing processes</strong>, <strong>account resolution</strong>, and <strong>client/vendor communication</strong>.</p>
+      
+      <p>I’m also a certified <strong>Climate Reality Leader</strong>, actively working with township schools to promote sustainability and climate action. I completed the <strong>Grant Writing Workshop</strong> offered by <strong>Leaders of Africa Institute</strong> and have been accepted into their main program (<em>not yet commenced</em>), reflecting my ongoing investment in capacity building and project impact.
+      <br /><br />
+       Additional certifications include the <strong>Project Management Certificate</strong> and participation in a <strong>business incubation program</strong> with <strong>RaizeCorp</strong>, further enhancing my strategic and operational capabilities.
+      <br /><br />
+      
+At the intersection of technology, environmental advocacy, and structured administration, I am committed to creating work that is <strong>impactful</strong>, <strong>well-organized</strong>, and aligned with clear purpose.</p></p>
+      
+
+      
+      
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80/400x200.png?text=Weather+App/400x200.png?text=Weather+App" alt="Weather App screenshot">
+        <h3>Weather Forecast App</h3>
+        <p>A responsive weather app that shows live forecasts, wind speed, and weather conditions using real-time API integration.</p>
+        <a href="https://weatherforecastv.netlify.app/" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&h=800&w=1200/400x200.png?text=Portfolio/400x200.png?text=Portfolio" alt="Portfolio screenshot">
+        <h3>Personal Portfolio Website</h3>
+        <p>This very website — a professional portfolio to showcase my skills, projects, and certifications.</p>
+        <a href="https://yourportfolio.com" target="_blank">Live Demo</a>
+      </div>
+      <div class="project">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/573/original/pexels-shvetsa-11286149.jpg?1749319867/400x200.png?text=Save+Planet" alt="Save Our Planet App screenshot">
+        <h3>Save our Planet</h3>
+        <p>An interactive app built during SheCodes to raise awareness and promote action to combat climate change.</p>
+        <a href="https://www.shecodes.io/cohorts/2481/projects/2590372" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/568/original/pexels-picsbyphoenix-462935-2303839.jpg?1749309442/400x200.png?text=DJ+App/400x200.png?text=DJ+App" alt="Learn how to DJ App screenshot">
+        <h3>Learn how to DJ</h3>
+        <p>A creative project using HTML, CSS, and JavaScript to introduce the basics of DJing in a fun way.</p>
+        <a href="https://www.shecodes.io/cohorts/2482/projects/2599266" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80/400x200.png?text=Eco+Awareness/400x200.png?text=Eco+Awareness" alt="Eco Education Campaign">
+        <h3>Eco Education Campaign</h3>
+        <p>Interactive content and materials to promote sustainability and climate education in township schools.</p>
+        <a href="#">Coming Soon</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="book">
+    <h2>A Survivor's Testimony</h2>
+    <div class="project">
+      <!-- Insert your book cover image manually -->
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/167/566/original/InShot_20240310_155721562.jpg?1749307545" alt="Hidden Scars, Silent Horrors book cover" style="width:100%; max-width:400px; border-radius:6px; margin-bottom:1rem;" />
+      <h3><strong>Hidden Scars, Silent Horrors</strong></h3>
+      <p><strong>Hidden Scars, Silent Horrors</strong> is a powerful and personal reflection on surviving narcissistic abuse. This book explores the often invisible impact of emotional manipulation and offers a compassionate, honest account of healing and reclaiming one’s voice.</p>
+      <p>Written to uplift and empower, it’s a story of <strong>resilience</strong>, <strong>truth</strong>, and the silent strength it takes to overcome emotional trauma.</p>
+      <p><strong>Read it for free</strong> with Kindle or get your copy here:</p>
+      <ul>
+        <li><a href="https://www.amazon.com/dp/B0DW4LQZ81" target="_blank"><strong>Amazon Listing</strong></a></li>
+        <li><a href="https://a.co/d/6x0NkXs" target="_blank"><strong>Kindle Direct Link</strong></a></li>
+   
+<li><a href="https://www.amazon.com/stores/Nokuthula-Mthimunye/author/B0DW623NWD?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true&ccs_id=9ea9d276-4d43-474e-b3a7-f46098e30381" target="_blank"><strong>Amazon Author page</strong></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>SheCodes Web Development Certificate</strong> — Completed June 2025</li>
+      <li><strong>Project Management Certificate</strong></li>
+      <li><strong>Leaders of Africa Grant Writing Workshop</strong> — Completed</li>
+      <li><strong>The Climate Reality Leadership Training</strong> — Certified Climate Leader</li>
+      <li><strong>RaizeCorp Business Incubation Program</strong> — Participated</li>
+    </ul>
+  </section>
+  
+  <!-- Contact Section Updated with Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  <!-- Include your full main content here (about, projects, book, certifications, contact) -->
+</main>
+
+<footer>
+  &copy; 2025 Nokuthula Mthimunye
+  <br>
+  <a href="mailto:thulisilem@gmail.com">Email</a>
+  <a href="https://linkedin.com/in/thuli-mthimunye-809b3b185" target="_blank">LinkedIn</a>
+  <a href="https://github.com/Thulz54" target="_blank">GitHub</a>
+</footer>
+
+<script>
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', e => {
+      e.preventDefault();
+      const targetID = anchor.getAttribute('href').substring(1);
+      document.getElementById(targetID)?.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
